@@ -1,0 +1,90 @@
+
+
+#1. Assign an integer to a variable    
+age = 29
+#2. Assign a string to a variable
+name ="Mc Mellan"
+#3. Assign a float to a variable
+coding_experience= 1.25 
+
+
+def get_info(age, name, coding_experience ):
+    print("My name is {1}. I am {0}. I have been studying coding for about {2} years.".format(age, name, coding_experience))
+
+#4. Use the print function and .format() notation to print out the variable you assigned 
+
+get_info(age, name, coding_experience)
+
+
+
+#5. Use each of these operators +, - , * , / , +=, ­= , %
+x=7
+y=10
+z=6
+
+print ((x + y)*  z)
+print int((y - z)/x) 
+print (y % x)
+
+x+= 2
+
+print (x)
+
+#6. Use of logical operators: and, or, not
+#7. Use of conditional statements: if, elif, else
+
+age= 25
+
+if age>18 and age<26:
+    print("Congratulations, You are eligible for student discount")
+elif age>26:
+    print("Sorry, you are too old")
+else:
+    print "Wait a couple of years"
+
+#8. Use of a while loop
+
+speed =70
+
+while speed<80:
+  print(speed)
+  speed=speed+2
+  print ("Drive carefully, dont go too fast")
+
+#9. Use of a for loop
+  
+for speed in range(70,80):
+    print(speed)
+
+#10. Create a list and iterate through that list using a for loop to print each item out on a new line
+   
+friends_list=["Desiree",
+              "Cammile",
+              "JVoiltaire",
+              "Justine",
+              "Windy",
+              "Joyce",]
+for friends in friends_list:
+    print(friends)
+
+#11. Create a tuple and iterate through it using a for loop to print each item out on a new line
+
+friends_info=[("Desiree", "City: Rowland Heights", "Age: 27", "Status: Single"),
+              ("Cammile","City: Rowland Heights", "Age: 29", "Status: Married"),
+              ("JVoiltaire","City: Rowland Heights", "Age: 31", "Status: Married"),
+              ("Justine","City: West Covina", "Age: 26", "Status: In a relationship"),
+              ("Windy","City: Montclair", "Age: 25", "Status: In a relationship"),
+              ("Joyce", "City: DUarte", "Age: 24", "Status: Dating"),]
+for friends_name in friends_info:
+    print(friends_name)
+    
+#12. Define a function that returns a string variable
+#13. Call the function you defined above and print the result to the shell
+    
+string_var= 98.7
+print str(string_var)
+
+
+    
+
+
